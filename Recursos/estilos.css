@@ -1,24 +1,32 @@
 body {
-  font-size: 16px;
+  width:1300px;
   margin: 0 auto;  /* Para que el contenedor este centrado */
   text-align:center;
 }
 
 h2{
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   color:#FFF;
   font-family:Verdana, Geneva, sans-serif;
   font-size: 30px;
 }
 
+.Texto{
+  text-align: center;
+  color:#000;
+  font-family:Arial;
+  font-size: 25px;
+	
+}
+
 .Boton {
     background-color: #ffffff;
     border-width:5px;
-	border-style:solid;
-	border-color:rgba(121, 121, 121, 1);
-	border-radius:10px;
-    color: black;
+	 border-style:solid;
+	 border-color:rgba(121, 121, 121, 1);
+	 border-radius:10px;
+    color: #0000FF;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -30,7 +38,10 @@ h2{
 
 /* HEADER   */
 #header {   
-  top:5px;
+  position:absolute;
+  left:50px;
+  top:20px;
+  width: 1260px;
   height:170px;
   float: none;
   background:inherit;
@@ -40,22 +51,33 @@ h2{
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:10px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
  }
 
 /* navBar  */
 #navBar {
-  top:30px;
+  position:absolute;
+  left:50px;
+  top:200px;
+  width:1260px;
   height:70px;
   float: none;
+  background:inherit;
+  background-color: rgba(255,255,0);
+  box-sizing:border-box;
+  border-width:5px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:10px;
+  padding-top: 10px;
 }
 
 
 /* leftMenu  */
 #leftMenu {
-  top:30px;
+  position:absolute;
+  left:50px;
+  top:280px;
+  width:200px;
   height:320px;
   float: left;
   background:inherit;
@@ -65,14 +87,17 @@ h2{
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:10px;
-  padding-top: 30px;
+  padding-top: 80px;
  }
 
  
  
 /* content */
 #content {
-  top:30px;
+  position:absolute;
+  left:270px;
+  top:280px;
+  width:600px;
   height:320px;
   float: left;
   background:inherit;
@@ -88,7 +113,10 @@ h2{
 
 /* rigthMenu */
 #rightMenu {
-  top:30px;
+  position:absolute;
+  left:890px;
+  top:280px;
+  width:420px;
   height:320px;
   float: left;
   background:inherit;
@@ -104,12 +132,13 @@ h2{
   padding-right: 10px;
 }
 
+
 /* footer  */
 #footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top:50px;
+  position:absolute;
+  left:50px;
+  top:620px;
+  width:1260px;
   height:60px;
   float: none;
   background:inherit;
@@ -119,6 +148,13 @@ h2{
   border-style:solid;
   border-color:rgba(121, 121, 121, 1);
   border-radius:10px;
+  padding-top: 10px;
 }
+
+/*@media(max-width:780px){
+  div{
+    width: 95%;
+  }
+}*/
 
 
