@@ -21,7 +21,7 @@ h2{
 }
 
 .Boton {
-    background-color: #ffffff;
+    background-color:yellow;
     border-width:5px;
 	 border-style:solid;
 	 border-color:rgba(121, 121, 121, 1);
@@ -35,8 +35,6 @@ h2{
     margin: 4px 2px;
     cursor: pointer;
 }
-
-/* HEADER   */
 #header {   
   position:absolute;
   left:50px;
@@ -45,7 +43,7 @@ h2{
   height:170px;
   float: none;
   background:inherit;
-  background-color: rgba(0, 255, 255);
+  background-color:yellow;
   box-sizing:border-box;
   border-width:5px;
   border-style:solid;
