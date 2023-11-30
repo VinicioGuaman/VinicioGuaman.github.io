@@ -44,13 +44,11 @@ input[type=submit]{
   margin-bottom: 0;
 }
 
-input[type=submit]:active{
+input[tyoe=submit]:hover{
+  opacity: 1;
+}
+
+input[tyoe=submit]:active{
   transform: scale(0.95);
 }
 
-/* RESPONSIVE */
-@media(max-width:780px){
-  form{
-    width: 95%;
-  }
-}
